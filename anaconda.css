@@ -2525,6 +2525,9 @@ body{
         font-size: 108%;
         font-weight: 500;
     }
+    .bottomwrap{
+       margin-left: 200px;
+    }
 } 
 
 @media only screen and (min-width:820px){
@@ -2938,6 +2941,9 @@ body{
         font-size: 108%;
         font-weight: 500;
     }
+    .bottomwrap{
+        margin-left: 230px;
+     }
 } 
 
 @media only screen and (min-width:1000px){
