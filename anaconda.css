@@ -12,6 +12,9 @@ body{
     color: white;
     text-decoration: none;
 }
+.windows-logo a{
+    color: black;
+}
 .container-2{
     display: none;
 }
