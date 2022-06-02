@@ -8,6 +8,8 @@
     <link rel="icon" type="image/x-icon" href="images/logos/favicon.png"> 
     <script src="https://kit.fontawesome.com/19c47ceb02.js" crossorigin="anonymous">
     </script>
+    <script src="anaconda.js"></script>
+    
 </head>
 <body>
     <div class="container-1">
@@ -17,36 +19,252 @@
                         <img src="images/logos/logo.png" id="logo" alt="logo">
                     </div>
                     <div class="optionspc">
-                        <div class="p-h">
-                            <select name="Products" id="p-h">
-                                <option value="">Products</option>
-                            </select>
+                        <div class="p-h"> 
+                            <button onmouseover="databaseList()" class="drop-btn btn">
+                                Products
+                                <span style="margin-left: 3px; font-size:17px;color: rgb(200, 192, 192);">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </span>
+                            </button>
+                            <div id="mydropdown" class="drop-down thedp ">
+                                <div class="p-1">
+                                    <div class="title-1">
+                                        <h3>Anaconda Distribution</h3>
+                                    </div>
+                                    <div class="caption-1">
+                                        <p>Open Source Repository and toolkit</p>
+                                    </div>
+                                </div>
+                                <div class="hr-1">
+                                    <hr>
+                                </div>
+                                <div class="p-2">
+                                    <div class="title-2">
+                                        <h3>Anaconda Proffessional</h3>
+                                    </div>
+                                    <div class="caption-2">
+                                        <p>Commercial-Grade distribution</p>
+                                    </div>
+                                </div>
+                                <div class="hr-2">
+                                    <hr>
+                                </div>
+                                <div class="p-3">
+                                    <div class="title-3">
+                                        <h3>Anaconda Business</h3>
+                                    </div>
+                                    <div class="caption-3">
+                                        <p>Cloud Repository Governance</p>
+                                    </div>
+                                </div>
+                                <div class="hr-3">
+                                    <hr>
+                                </div>
+                                <div class="p-4">
+                                    <div class="title-4">
+                                        <h3>Anaconda Server</h3>
+                                    </div>
+                                    <div class="caption-4">
+                                        <p>On-prem Repository governance</p>
+                                    </div>
+                                </div>
+                                <div class="hr-4">
+                                    <hr>
+                                </div>
+                                <div class="p-5">
+                                    <div class="title-5">
+                                        <h3>Enterprise DS Platform</h3>
+                                    </div>
+                                    <div class="caption-5">
+                                        <p>OSS code development platform</p>
+                                    </div>
+                                </div>
+                                <div class="hr-5">
+                                    <hr>
+                                </div>
+                                <div class="p-6">
+                                    <div class="title-6">
+                                        <h3>Proffessional Services</h3>
+                                    </div>
+                                    <div class="caption-6">
+                                        <p>Data experts at your Service</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="pr-h">
                            <p>Pricing</p>
                         </div>
                         <div class="sol-h">
-                            <select name="Products" id="p-h">
-                                <option value="">Solutions</option>
-                            </select>
+                            <button id="sol-button" class="sol-button btn" onmouseover="solutionList()">
+                                Solutions
+                                <span style="margin-left: 3px; font-size:17px;color: rgb(200, 192, 192);">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </span>
+                            </button>
+                            <div class="sol-dropdown thedp" id="mysol-dropdown">
+                                <div class="s-1">
+                                    <h3>Use Cases</h3>
+                                </div>
+                                <div class="s-hr">
+                                    <hr>
+                                </div>
+                                <div class="s-2">
+                                    <h3>Industries</h3>
+                                </div>
+                            </div>
                         </div>
                         <div class="r-h">
-                            <select name="Products" id="p-h">
-                                <option value="">Resources</option>
-                            </select>
+                            <button id="r-button" class="r-button btn" onmouseover="resources()">
+                                Resources
+                                <span style="margin-left: 3px; font-size:17px;color: rgb(200, 192, 192);">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </span>
+                            </button>
+                            <div class="r-dropdown thedp" id="myr-dropdown">
+                                <div class="r-11">
+                                    <h3>
+                                        Anaconda Nucleus
+                                    </h3>
+                                    <p>
+                                        Join Our Online Community
+                                    </p>
+                                </div>
+                                <div class="r-hr-11">
+                                    <hr>
+                                </div>
+                                <div class="r-11">
+                                    <h3>
+                                        Open Source
+                                    </h3>
+                                    <p> 
+                                        Tecchnologies for Data Science
+                                    </p>
+                                </div>
+                                <div class="r-hr-11">
+                                    <hr>
+                                </div>
+                                <div class="r-11">
+                                    <h3>
+                                        Library
+                                    </h3>
+                                    <p>
+                                        Videos, Datasheets and Whitepapers
+                                    </p>
+                                </div>
+                                <div class="r-hr-11">
+                                    <hr>
+                                </div>
+                                <div class="r-11">
+                                    <h3>
+                                        Events
+                                    </h3>
+                                    <p>
+                                        Meetups, Webinars and Conferences
+                                    </p>
+                                </div>
+                                <div class="r-hr-11">
+                                    <hr>
+                                </div>
+                                <div class="r-11">
+                                    <h3>
+                                        Support Center
+                                    </h3>
+                                    <p>
+                                        Get Support and Documentation on Anaconda Nucleus
+                                    </p>
+                                </div>
+                            </div> 
                         </div>
                         <div class="p-h">
-                            <select name="Products" id="p-h">
-                                <option value="">Partners</option>
-                            </select>
+                            <button id="pat-button" class="pat-button btn" onmouseover="partners()">
+                                Partners
+                                <span style="margin-left: 3px; font-size:17px;color: rgb(200, 192, 192);">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </span>
+                            </button>
+                            <div class="pat-dropdown thedp" id="pat-dropdown">
+                                <div class="pat-1">
+                                    <h3>Embeddded</h3>
+                                </div>
+                                <div class="hr">
+                                    <hr>
+                                </div>
+                                <div class="pat-2">
+                                    <h3>Technology</h3>
+                                </div>
+                                <div class="hr">
+                                    <hr>
+                                </div>
+                                <div class="pat-3">
+                                    <h3>Resellers</h3>
+                                </div>
+                                <div class="hr">
+                                    <hr>
+                                </div>
+                                <div class="pat-4">
+                                    <h3>services</h3>
+                                </div>
+                            </div>
                         </div>
                         <div class="b-h">
                             <p>Blog</p>
                         </div>
                         <div class="c-h">
-                            <select name="Products" id="p-h">
-                                <option value="">Company</option>
-                            </select>
+                            <button class="com-button btn" id="com-button" onmouseover="company()">
+                                Company
+                                <span style="margin-left: 3px; font-size:17px;color: rgb(200, 192, 192);">
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </span>
+                            </button>
+                            <div class="com-dropdown thedp" id="com-dropdown">
+                                <div class="com-1">
+                                    <h3>
+                                        About Us
+                                    </h3>
+                                </div>
+                                <div class="hr-1">
+                                        <hr>
+                                </div>
+                                <div class="com-2">
+                                    <h3>
+                                        Leadership
+                                    </h3>
+                                </div>
+                                <div class="hr-1">
+                                        <hr>
+                                </div>
+                                <div class="com-3">
+                                    <h3>
+                                        Press
+                                    </h3>
+                                </div>
+                                <div class="hr-1">
+                                        <hr>
+                                </div>
+                                <div class="com-4">
+                                    <h3>
+                                        Contact Us
+                                    </h3>
+                                </div>
+                                <div class="hr-1">
+                                        <hr>
+                                </div>
+                                <div class="com-5">
+                                    <h3>
+                                        Careers
+                                    </h3>
+                                </div>
+                                <div class="hr-1">
+                                        <hr>
+                                </div>
+                                <div class="com-6">
+                                    <h3>
+                                        Dividend Program
+                                    </h3>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="contactpc">
@@ -63,8 +281,10 @@
                               Start working with thousands of <br>open-source packages
                                and libraries today.</p>
                     </div>
-                    <div class="download">
-                        <button type="button" id="d-b"><a href="https://repo.anaconda.com/archive/Anaconda3-2022.05-Windows-x86_64.exe"> Download </a><span style="font-size:18px"><i class="fa-brands fa-windows"></i> </span></button>
+                    <div class="download-button">
+                        <div class="download">
+                            <button type="button" id="d-b"><a href="https://repo.anaconda.com/archive/Anaconda3-2022.05-Windows-x86_64.exe"> Download </a><span style="font-size:18px"><i class="fa-brands fa-windows"></i> </span></button>
+                        </div>
                     </div>
                     <div class="textdpc">
                                 <div class="for-windows">
@@ -639,4 +859,10 @@
         </div>
 
     </div>
+    <script>
+        
+function databaseList() {
+  document.getElementById("mydropdown").classList.toggle("show");
+}
+    </script>
 </body>
