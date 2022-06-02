@@ -40,3 +40,13 @@
 // function company() {
 //   document.getElementById("com-dropdown").classList.toggle("show");
 // }
+
+
+function mobileView(){
+  document.getElementById("mobile-view").style.display = 'initial' ;
+}
+
+function exitmenu(){
+  document.getElementById("mobile-view").style.display = 'none'; 
+
+}
