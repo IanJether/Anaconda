@@ -22,11 +22,13 @@ body{
 
 
 
-
+.covers:hover{
+    cursor: pointer;
+}
 .covers:hover .thedropdown{
     display: block;
+    cursor: pointer;
 }
-
 
 
 
