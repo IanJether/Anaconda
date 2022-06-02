@@ -8,10 +8,10 @@
     <link rel="icon" type="image/x-icon" href="images/logos/favicon.png"> 
     <script src="https://kit.fontawesome.com/19c47ceb02.js" crossorigin="anonymous">
     </script>
-    <script src="anaconda.js"></script>
     
 </head>
 <body>
+    <script src="anaconda.js"></script>
     <div class="container-1">
         <div class="rec-1">
                 <div class="headerpc">
@@ -19,19 +19,22 @@
                         <img src="images/logos/logo.png" id="logo" alt="logo">
                     </div>
                     <div class="optionspc">
-                        <div class="p-h"> 
-                            <button onmouseover="databaseList()" class="drop-btn btn">
+
+
+                        
+                        <div class="p-h covers" onmouseover="databaseList('mydropdown')" id="productid" onmouseout="databaseListHide('mydropdown')">
+                            <button class="drop-btn btn">
                                 Products
                                 <span style="margin-left: 3px; font-size:17px;color: rgb(200, 192, 192);">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </button>
-                            <div id="mydropdown" class="drop-down thedp ">
-                                <div class="p-1">
+                            <div id="mydropdown" class="drop-down thedp thedropdown">
+                                <div class="p-1 text-ttg">
                                     <div class="title-1">
                                         <h3>Anaconda Distribution</h3>
                                     </div>
-                                    <div class="caption-1">
+                                    <div class="caption-1 text-ttg">
                                         <p>Open Source Repository and toolkit</p>
                                     </div>
                                 </div>
@@ -39,7 +42,7 @@
                                     <hr>
                                 </div>
                                 <div class="p-2">
-                                    <div class="title-2">
+                                    <div class="title-2 text-ttg">
                                         <h3>Anaconda Proffessional</h3>
                                     </div>
                                     <div class="caption-2">
@@ -50,7 +53,7 @@
                                     <hr>
                                 </div>
                                 <div class="p-3">
-                                    <div class="title-3">
+                                    <div class="title-3 text-ttg">
                                         <h3>Anaconda Business</h3>
                                     </div>
                                     <div class="caption-3">
@@ -61,10 +64,10 @@
                                     <hr>
                                 </div>
                                 <div class="p-4">
-                                    <div class="title-4">
+                                    <div class="title-4 text-ttg">
                                         <h3>Anaconda Server</h3>
                                     </div>
-                                    <div class="caption-4">
+                                    <div class="caption-4 text-ttg">
                                         <p>On-prem Repository governance</p>
                                     </div>
                                 </div>
@@ -72,10 +75,10 @@
                                     <hr>
                                 </div>
                                 <div class="p-5">
-                                    <div class="title-5">
+                                    <div class="title-5 text-ttg">
                                         <h3>Enterprise DS Platform</h3>
                                     </div>
-                                    <div class="caption-5">
+                                    <div class="caption-5 text-ttg">
                                         <p>OSS code development platform</p>
                                     </div>
                                 </div>
@@ -83,47 +86,52 @@
                                     <hr>
                                 </div>
                                 <div class="p-6">
-                                    <div class="title-6">
+                                    <div class="title-6 text-ttg">
                                         <h3>Proffessional Services</h3>
                                     </div>
-                                    <div class="caption-6">
+                                    <div class="caption-6 text-ttg">
                                         <p>Data experts at your Service</p>
                                     </div>
                                 </div>
                             </div>
 
+
+
+
+
+                            
                         </div>
                         <div class="pr-h">
                            <p>Pricing</p>
                         </div>
-                        <div class="sol-h">
+                        <div class="sol-h covers">
                             <button id="sol-button" class="sol-button btn" onmouseover="solutionList()">
                                 Solutions
                                 <span style="margin-left: 3px; font-size:17px;color: rgb(200, 192, 192);">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </button>
-                            <div class="sol-dropdown thedp" id="mysol-dropdown">
-                                <div class="s-1">
+                            <div class="sol-dropdown thedp thedropdown" id="mysol-dropdown">
+                                <div class="s-1 text-ttg">
                                     <h3>Use Cases</h3>
                                 </div>
                                 <div class="s-hr">
                                     <hr>
                                 </div>
-                                <div class="s-2">
+                                <div class="s-2 text-ttg">
                                     <h3>Industries</h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="r-h">
+                        <div class="r-h covers">
                             <button id="r-button" class="r-button btn" onmouseover="resources()">
                                 Resources
                                 <span style="margin-left: 3px; font-size:17px;color: rgb(200, 192, 192);">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </button>
-                            <div class="r-dropdown thedp" id="myr-dropdown">
-                                <div class="r-11">
+                            <div class="r-dropdown thedp thedropdown" id="myr-dropdown">
+                                <div class="r-11 text-ttg">
                                     <h3>
                                         Anaconda Nucleus
                                     </h3>
@@ -134,7 +142,7 @@
                                 <div class="r-hr-11">
                                     <hr>
                                 </div>
-                                <div class="r-11">
+                                <div class="r-11 text-ttg">
                                     <h3>
                                         Open Source
                                     </h3>
@@ -145,7 +153,7 @@
                                 <div class="r-hr-11">
                                     <hr>
                                 </div>
-                                <div class="r-11">
+                                <div class="r-11 text-ttg">
                                     <h3>
                                         Library
                                     </h3>
@@ -156,7 +164,7 @@
                                 <div class="r-hr-11">
                                     <hr>
                                 </div>
-                                <div class="r-11">
+                                <div class="r-11 text-ttg">
                                     <h3>
                                         Events
                                     </h3>
@@ -167,7 +175,7 @@
                                 <div class="r-hr-11">
                                     <hr>
                                 </div>
-                                <div class="r-11">
+                                <div class="r-11 text-ttg">
                                     <h3>
                                         Support Center
                                     </h3>
@@ -177,33 +185,33 @@
                                 </div>
                             </div> 
                         </div>
-                        <div class="p-h">
+                        <div class="p-h covers">
                             <button id="pat-button" class="pat-button btn" onmouseover="partners()">
                                 Partners
                                 <span style="margin-left: 3px; font-size:17px;color: rgb(200, 192, 192);">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </button>
-                            <div class="pat-dropdown thedp" id="pat-dropdown">
-                                <div class="pat-1">
+                            <div class="pat-dropdown thedp thedropdown" id="pat-dropdown">
+                                <div class="pat-1 text-ttg">
                                     <h3>Embeddded</h3>
                                 </div>
                                 <div class="hr">
                                     <hr>
                                 </div>
-                                <div class="pat-2">
+                                <div class="pat-2 text-ttg">
                                     <h3>Technology</h3>
                                 </div>
                                 <div class="hr">
                                     <hr>
                                 </div>
-                                <div class="pat-3">
+                                <div class="pat-3 text-ttg">
                                     <h3>Resellers</h3>
                                 </div>
                                 <div class="hr">
                                     <hr>
                                 </div>
-                                <div class="pat-4">
+                                <div class="pat-4 text-ttg">
                                     <h3>services</h3>
                                 </div>
                             </div>
@@ -211,15 +219,15 @@
                         <div class="b-h">
                             <p>Blog</p>
                         </div>
-                        <div class="c-h">
+                        <div class="c-h covers">
                             <button class="com-button btn" id="com-button" onmouseover="company()">
                                 Company
                                 <span style="margin-left: 3px; font-size:17px;color: rgb(200, 192, 192);">
                                     <i class="fa-solid fa-caret-down"></i>
                                 </span>
                             </button>
-                            <div class="com-dropdown thedp" id="com-dropdown">
-                                <div class="com-1">
+                            <div class="com-dropdown thedp thedropdown" id="com-dropdown">
+                                <div class="com-1 text-ttg">
                                     <h3>
                                         About Us
                                     </h3>
@@ -227,7 +235,7 @@
                                 <div class="hr-1">
                                         <hr>
                                 </div>
-                                <div class="com-2">
+                                <div class="com-2 text-ttg">
                                     <h3>
                                         Leadership
                                     </h3>
@@ -235,7 +243,7 @@
                                 <div class="hr-1">
                                         <hr>
                                 </div>
-                                <div class="com-3">
+                                <div class="com-3 text-ttg">
                                     <h3>
                                         Press
                                     </h3>
@@ -243,23 +251,23 @@
                                 <div class="hr-1">
                                         <hr>
                                 </div>
-                                <div class="com-4">
+                                <div class="com-4 text-ttg">
                                     <h3>
                                         Contact Us
                                     </h3>
                                 </div>
-                                <div class="hr-1">
+                                <div class="hr-1 text-ttg">
                                         <hr>
                                 </div>
-                                <div class="com-5">
+                                <div class="com-5 text-ttg">
                                     <h3>
                                         Careers
                                     </h3>
                                 </div>
-                                <div class="hr-1">
+                                <div class="hr-1 text-ttg">
                                         <hr>
                                 </div>
-                                <div class="com-6">
+                                <div class="com-6 text-ttg">
                                     <h3>
                                         Dividend Program
                                     </h3>
@@ -859,10 +867,4 @@
         </div>
 
     </div>
-    <script>
-        
-function databaseList() {
-  document.getElementById("mydropdown").classList.toggle("show");
-}
-    </script>
 </body>
