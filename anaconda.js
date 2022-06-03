@@ -48,5 +48,5 @@ function mobileView(){
 
 function exitmenu(){
   document.getElementById("mobile-view").style.display = 'none'; 
-
 }
+

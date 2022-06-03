@@ -29,7 +29,15 @@ body{
     display: block;
     cursor: pointer;
 }
+.spanicon{
+    margin-left: 3px; 
+    font-size:17px;
+    color: rgb(200, 192, 192);
+}
+.covers:hover .spanicon{
+    color: black;
 
+}
 
 
 
