@@ -8,7 +8,12 @@ body{
 
 
 
-
+.covers:hover .btn{
+    text-decoration: underline;
+    text-decoration-color: rgb(51, 199, 98);
+    text-decoration-thickness: 5px;
+    text-underline-offset:7px ;
+}
 
 
 
@@ -22,12 +27,7 @@ body{
 
 
 
-.pr-h:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    text-decoration-color: rgb(51, 199, 98);
-    text-decoration-thickness: 3px;
-}
+
 
 
 .covers:hover{
